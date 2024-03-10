@@ -39,10 +39,10 @@ const LiStyle = styled.li`
 `;
 const H1_STYLE = {
   marginLeft: "10px",
-  color: "grey",
+  color: "#595a5c",
 };
 const ATAG_STYLE = {
-  color: "grey",
+  color: "#595a5c",
 };
 const Nav = () => {
   return (

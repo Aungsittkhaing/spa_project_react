@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Nav from "./components/Nav";
 import { GlobalCss } from "./styles/GlobalCss";
 import Home from "./components/Home";
+import Login from "./components/Login";
 
 const theme = {
   colors: {
@@ -17,7 +18,8 @@ const App = () => {
       <GlobalCss />
       <Container>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<Home />}></Route>
         </Routes>
       </Container>
     </ThemeProvider>
